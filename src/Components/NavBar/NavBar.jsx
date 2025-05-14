@@ -17,7 +17,7 @@ const NavBar = () => {
             <a href="#">REGISTER</a>
             <div className="cart">
               <img src={cart} alt="" />
-              <span className="cart-count"></span>
+              <span className="cart-count">0</span>
             </div>
           </div>
         </div>
