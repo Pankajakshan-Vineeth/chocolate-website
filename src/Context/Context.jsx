@@ -1,7 +1,6 @@
 import React from 'react'
-import './Item.css'
 
-const Item = () => {
+const Context = () => {
   return (
     <div>
       
@@ -9,4 +8,4 @@ const Item = () => {
   )
 }
 
-export default Item
+export default Context

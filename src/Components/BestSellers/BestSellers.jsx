@@ -1,4 +1,5 @@
 import React from 'react'
+import './BestSellers.css'
 
 const BestSellers = () => {
   return (

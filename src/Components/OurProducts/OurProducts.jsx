@@ -1,4 +1,5 @@
 import React from 'react'
+import './OurProducts.css'
 
 const OurProducts = () => {
   return (
