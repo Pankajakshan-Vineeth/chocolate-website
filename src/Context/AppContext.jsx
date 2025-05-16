@@ -1,9 +1,7 @@
 import React, { createContext, useState, useEffect } from 'react';
 
-// 1. Create the context
 export const AppContext = createContext(null);
 
-// 2. Create the provider component
 const AppContextProvider = (props) => {
 
 const heroData = [
