@@ -16,10 +16,13 @@ const heroData = [
   const [count, setCount] = useState(0); // image count
 
   useEffect(() => {
-    setInterval(() => {
-      setCount((count) => (count === 3 ? 0 : count + 1));
-    }, 3000);
-  }, []);    //time to move the image
+  const interval = setInterval(() => {
+    setCount((prevCount) => (prevCount + 1) % heroData.length);
+  }, 5000);
+
+  return () => clearInterval(interval); // Cleanup
+}, [heroData.length]);
+
 
   const contextValue = {count,setCount, heroData}
   return (

@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  position: relative;
+  width: 100vw;           /* Full viewport width */
+  height: 100vh;          /* Full height, can adjust if needed */
+  overflow: hidden;       /* Prevent overflow */
+}
+
+.background-images {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.background-images img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+}
+
+.background-images img.active {
+  display: block;
+}
+
+.hero-text {
+  position: relative;
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  z-index: 1;
+  padding-top: 20vh;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.arrowbuttons {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  padding: 0 20px;
+  z-index: 2;
+}
+
+.arrowbuttons img {
+  cursor: pointer;
+  user-select: none;
+}
+
+.arrowbuttons img:first-child {
+  width: 30px; /* Smaller left arrow */
+  height: 30px;
+}
+
+.arrowbuttons img:last-child {
+  width: 40px;
+  height: 40px;
+}
+
+.hero-dot-play {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+}
+
+.hero-dots {
+  display: flex;
+  gap: 10px;
+}
+
+.hero-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ccc;
+  cursor: pointer;
+  list-style: none;
+}
+
+.hero-dot.orange {
+  background-color: orange;
+}
