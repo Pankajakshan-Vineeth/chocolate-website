@@ -1,28 +1,59 @@
-.newcollections {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    height: 90vh;
-    margin-bottom: 550px;
+.panindia {
+  position: relative;
+  width: 100%;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-.newcollections h1{
-    color: black;
-    font-size: 50px;
-    font-weight: 600;
+.panindia h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  text-align: left;
 }
 
-.newcollections hr{
-    width:200px ;
-    height: 6px;
-    border-radius: 10px;
-    background:#252525;
+/* arrows top-right */
+.arrows {
+  position: absolute;
+  top: 24px;
+  right: 40px;
+  display: flex;
+  gap: 16px;
+}
+.arrows img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+}
+.arrows img:hover {
+  opacity: 1;
 }
 
-.collections {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 30px;
-    margin-top: 50px;
+/* product grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin: 16px 0;
+}
+
+/* bottom dots */
+.dots {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 12px;
+}
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.dot.active {
+  background-color: orange;
 }
