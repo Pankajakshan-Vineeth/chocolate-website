@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./OurProducts.css";
-import Item from "../../Components/Item/Item";  
-import ourProducts from "../../assets/ourProducts";
+import Item from "../../Components/Item/Item";
+import ourProducts from "../../assets/ourProducts.js";
 
 const categories = [
   "cakes",
@@ -14,6 +14,10 @@ const categories = [
 
 const OurProducts = () => {
   const [activeCategory, setActiveCategory] = useState(categories[0]); // default to "cakes"
+
+  const filteredProducts = ourProducts.filter(
+    (product) => product.category.toLowerCase() === activeCategory.toLowerCase()
+  );
 
   return (
     <div className="ourproduct-container">
@@ -35,14 +39,18 @@ const OurProducts = () => {
       </nav>
 
       <div className="product-grid">
-        {ourProducts[activeCategory]?.map((product) => (
-          <Item
-            key={product.id}
-            name={product.name}
-            price={product.price}
-            image={product.image}
-          />
-        )) || <p>No products found in this category.</p>}
+        {filteredProducts.length > 0 ? (
+          filteredProducts.map((product) => (
+            <Item
+              key={product.id}
+              name={product.name}
+              price={product.price}
+              image={product.image}
+            />
+          ))
+        ) : (
+          <p>No products found in this category.</p>
+        )}
       </div>
     </div>
   );
