@@ -1,0 +1,47 @@
+.ourproduct-container {
+  padding: 40px 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 10px;
+}
+
+.nav-container h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.nav-container ul {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-container li {
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #888;
+  cursor: pointer;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+/* Active tab styling */
+.nav-container li:first-child {
+  color: #d35400; 
+  border-bottom: 2px solid #d35400;
+}
+
+/* hover effect */
+.nav-container li:hover {
+  color: #d35400;
+}
