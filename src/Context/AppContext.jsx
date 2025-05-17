@@ -5,9 +5,9 @@ import pan_India from "../assets/panIndia";
 export const AppContext = createContext(null);
 
 export default function AppContextProvider({ children }) {
-  //
+  
   // 1) Hero slider state
-  //
+  
   const heroData = [
     { text1: "Real Fruit", text2: "Macarons" },
     { text1: "Almond +",  text2: "Chocolates" },
