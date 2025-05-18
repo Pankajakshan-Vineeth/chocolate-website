@@ -59,10 +59,13 @@
 
 
 .product-grid img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  object-fit: cover;
+ position: relative;
+  width: 110%;
+  height: 300px;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 2px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Scrollbar style for horizontal nav overflow */

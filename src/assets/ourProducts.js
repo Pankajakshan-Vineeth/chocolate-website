@@ -1,21 +1,21 @@
 import trufflecake1 from './trufflecake1.jpg'
 import trufflecake3 from './trufflecake3.jpg'
 import trufflecake4 from './trufflecake4.jpg'
-import orange_almond from "./orange_almond.jpg";
-import opera from "./opera.jpg";
-import mouse from "./mouse.jpg";
-import berry from "./berry.jpg";
-import cold_chocolate1 from './cold_choc1.png'
-import cold_chocolate2 from './cold_choc2.png'
-import eggless1 from "./eggless1.jpg"
-import eggless2 from "./eggless2.jpg"
-import eggless3 from "./eggless3.jpg"
-import eggless4 from "./eggless4.jpg"
-import eggless5 from "./eggless5.jpg"
-import strawberry from "./strawberry.jpg";
-import seasonal1 from "./seasonal1.jpg"
-import seasonal2 from "./seasonal2.jpg"
-import defaultImage from "./default.jpg";
+import orange_almond from './orange_almond.webp';
+import opera from './opera.jpg';
+import mouse from './mouse.jpg';
+import berry from './berry.jpg';
+import cold_chocolate1 from './cold_choc1.jpg'
+import cold_chocolate2 from './cold_choc2.jpg'
+import eggless1 from './eggless1.jpg'
+import eggless2 from './eggless2.jpg'
+import eggless3 from './eggless3.jpg'
+import eggless4 from './eggless4.jpg'
+import eggless5 from './eggless5.jpg'
+import strawberry from './strawberry.jpg';
+import seasonal1 from './seasonal1.webp'
+import seasonal2 from './seasonal2.jpg'
+import defaultImage from './default.jpg';
 
 const products = [
     
@@ -148,35 +148,35 @@ const products = [
   {
     id: 19,
     name: "Belgian Truffle Cakes",
-    category: "cakes",
+    category: "pastries",
     price: 295,
     image: [defaultImage],
   },
   {
     id: 20,
     name: "Dark Belgian Mousse Cake",
-    category: "cakes",
+    category: "pastries",
     price: 295,
     image: [defaultImage],
   },
   {
     id: 23,
     name: "German Mudcake",
-    category: "cakes",
+    category: "pastries",
     price: 295,
     image: [defaultImage],
   },
   {
     id: 24,
     name: "Eggless Truffle Pastry",
-    category: "cakes",
+    category: "pastries",
     price: 295,
     image: [defaultImage],
   },
   {
     id: 25,
     name: "Belgian Chocolate Brownie",
-    category: "cakes",
+    category: "pastries",
     price: 395,
     image: [defaultImage],
   },

@@ -3,8 +3,7 @@ import "./Item.css";
 import { useNavigate } from "react-router-dom";
 
 const Item = (props) => {
-  const { id, name, price, images } = props;
-
+  const { id, name, price, image: images } = props;
   const navigate = useNavigate();
 
   const handleClick = () => {
@@ -15,8 +14,10 @@ const Item = (props) => {
   return (
     <div className="item">
       <div className="item-image-container" onClick={handleClick}>
-        <img className="img-primary" src={images[0]} alt={name} />
-        {images[1] && (
+        {Array.isArray(images) && images[0] && (
+          <img className="img-primary" src={images[0]} alt={name} />
+        )}
+        {Array.isArray(images) && images[1] && (
           <img className="img-secondary" src={images[1]} alt={name} />
         )}
       </div>

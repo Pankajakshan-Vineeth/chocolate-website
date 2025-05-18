@@ -31,7 +31,7 @@ export default function PanIndia() {
             key={item.id}
             id={item.id}
             name={item.name}
-            images={item.images}
+            image={item.image}
             price={item.price}
           />
         ))}

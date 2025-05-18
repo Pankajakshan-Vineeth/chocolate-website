@@ -10,38 +10,38 @@ const products = [
     id: 1,
     name: "Truffles & Pralines",
     price: 999,
-    images: [praline1, praline2, praline3],
+    image: [praline1, praline2, praline3],
   },
   {
     id: 2,
     name: "Swiss Butter Cookies",
     price: 350,
-    images: [cookies], // wrap in array
+    image: [cookies], // wrap in array
   },
   {
     id: 3,
     name: "Choco Chip Cookies",
     price: 400,
-    images: [chocochip1, chocochip2],
+    image: [chocochip1, chocochip2],
   },
 
   {
     id: 4,
     name: "Truffles & Pralines",
     price: 999,
-    images: [praline1, praline2, praline3],
+    image: [praline1, praline2, praline3],
   },
   {
     id: 5,
     name: "Swiss Butter Cookies",
     price: 350,
-    images: [cookies],
+    image: [cookies],
   },
   {
     id: 6,
     name: "Choco Chip Cookies",
     price: 400,
-    images: [chocochip1, chocochip2],
+    image: [chocochip1, chocochip2],
   },
 ];
 
