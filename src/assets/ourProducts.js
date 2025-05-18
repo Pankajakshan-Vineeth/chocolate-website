@@ -13,8 +13,8 @@ import eggless3 from './eggless3.jpg'
 import eggless4 from './eggless4.jpg'
 import eggless5 from './eggless5.jpg'
 import strawberry from './strawberry.jpg';
-import seasonal1 from './seasonal1.webp'
-import seasonal2 from './seasonal2.jpg'
+// import seasonal1 from './seasonal1.webp'
+// import seasonal2 from './seasonal2.jpg'
 import defaultImage from './default.jpg';
 
 const products = [
@@ -75,13 +75,13 @@ const products = [
     price: 2400,
     image: [strawberry],
   },
-  {
-    id: 9,
-    name: "Seasonal Fruit Cake",
-    category: "cakes",
-    price: 2125,
-    image: [seasonal1, seasonal2],
-  },
+  // {
+  //   id: 9,
+  //   name: "Seasonal Fruit Cake",
+  //   category: "cakes",
+  //   price: 2125,
+  //   image: [seasonal1, seasonal2],
+  // },
   {
     id: 10,
     name: "Chocolate Velvets",
