@@ -10,7 +10,7 @@ const Hamper = () => {
   
   return (
     <div className="bestseller-container">
-      <h1>Best Sellers</h1>
+      <h1>Premium Gifts Hampers</h1>
       <div className="product-grid">
         {hamper.map((product) => {
           return (

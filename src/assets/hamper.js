@@ -1,8 +1,7 @@
-import hamper_1 from './hamper_1.png'
-import hamper_2 from './hamper_2.png'
-import gift_card from './gift_card.png'
-import shoe from './shoe.jpg'
-
+import hamper_1 from "./hamper_1.png";
+import hamper_2 from "./hamper_2.png";
+import gift_card from "./gift_card.png";
+import shoe from "./shoe.jpg";
 
 const products = [
   {
@@ -24,29 +23,29 @@ const products = [
     name: "CHOCOLATE SHAPES & FIGURES",
     category: "hamper",
     price: 1200.0,
-    image: {shoe},
+    image: [shoe],
   },
   {
     id: 4,
     name: "BOX OF 24 EXCLUSIVE BELGIAN CHOCOLATES",
     category: "hamper",
     price: 2125.0,
-    image: [hamper_2]
+    image: [hamper_2],
   },
-  {
-    id: 5,
-    name: "CHOCOLATE SHAPES & FIGURES",
-    category: "hamper",
-    price: 1200.0,
-    image: {shoe},
-  },
-  {
-    id: 6,
-    name: "BOX OF 24 EXCLUSIVE BELGIAN CHOCOLATES",
-    category: "hamper",
-    price: 2125.0,
-    image: [hamper_2]
-  },
+  //   {
+  //     id: 5,
+  //     name: "CHOCOLATE SHAPES & FIGURES",
+  //     category: "hamper",
+  //     price: 1200.0,
+  //     image: {shoe},
+  //   },
+  //   {
+  //     id: 6,
+  //     name: "BOX OF 24 EXCLUSIVE BELGIAN CHOCOLATES",
+  //     category: "hamper",
+  //     price: 2125.0,
+  //     image: [hamper_2]
+  //   },
 ];
 
 export default products;

@@ -24,8 +24,9 @@ const Item = (props) => {
 
       <p>{name}</p>
 
-      <div>
-        <div className="item-prices">${price}</div>
+      <div >
+        <p className="from"> From</p>
+        <div className="item-prices">Rs. {price}.00</div>
       </div>
     </div>
   );
