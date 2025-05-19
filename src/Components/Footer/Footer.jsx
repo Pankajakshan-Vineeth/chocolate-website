@@ -54,7 +54,7 @@ const Footer = () => {
 
       <div className="footer-bottom">
         <p className="footer-copyright">
-          COPYRIGHT © 2025 LINOUÏ – CHOCOLATES | PASTRIES | BAKES
+          COPYRIGHT © 2025 LINOUÏ – CHOCOLATES | PASTRIES 
         </p>
       </div>
     </footer>
