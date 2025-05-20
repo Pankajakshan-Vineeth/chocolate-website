@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from "./Components/NavBar/NavBar";
 import Shop from "./Pages/Shop";
 import Footer from "./Components/Footer/Footer";
+import LoginSignup from "./Pages/LoginSignup";
 
 const App = () => {
   return (
@@ -11,8 +12,9 @@ const App = () => {
         <NavBar />
         <Routes>
           <Route path="/" element={<Shop />} />
+          <Route path="/login" element={<LoginSignup />} />
         </Routes>
-        <Footer/>
+        <Footer />
       </BrowserRouter>
     </div>
   );

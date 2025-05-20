@@ -1,8 +1,10 @@
 import React from "react";
-import './NavBar.css'
+import "./NavBar.css";
+import { Link } from "react-router-dom";
+
 import logo from "../../assets/logo.png";
 import cart from "../../assets/cart_icon.png";
-import search from "../../assets/search.png"
+import search from "../../assets/search.png";
 
 const NavBar = () => {
   return (
@@ -13,7 +15,7 @@ const NavBar = () => {
             <img src={logo} alt="" />
           </div>
           <div className="navbar-actions">
-            <a href="#">LOGIN</a>
+            <Link to="/login">LOGIN</Link>
             <a href="#">REGISTER</a>
             <div className="cart">
               <img src={cart} alt="" />
@@ -24,16 +26,30 @@ const NavBar = () => {
 
         <nav className="navbar-bottom">
           <ul className="nav-links">
-            <li><a href="#">CHOCOLATES</a></li>
-      <li><a href="#">PASTRIES</a></li>
-      <li><a href="#">CELEBRATION CAKES</a></li>
-      <li><a href="#">CROISSANTS</a></li>
-      <li><a href="#">COOKIES</a></li>
-      <li><a href="#">MACARONS</a></li>
+            <li>
+              <a href="#">CHOCOLATES</a>
+            </li>
+            <li>
+              <a href="#">PASTRIES</a>
+            </li>
+            <li>
+              <a href="#">CELEBRATION CAKES</a>
+            </li>
+            <li>
+              <a href="#">CROISSANTS</a>
+            </li>
+            <li>
+              <a href="#">COOKIES</a>
+            </li>
+            <li>
+              <a href="#">MACARONS</a>
+            </li>
           </ul>
           <div className="search-bar">
-           <input type="text"  placeholder="Enter Your Keyword"/>
-           <button><img src={search} alt="" /></button>
+            <input type="text" placeholder="Enter Your Keyword" />
+            <button>
+              <img src={search} alt="" />
+            </button>
           </div>
         </nav>
       </header>

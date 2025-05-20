@@ -43,7 +43,7 @@ const Footer = () => {
         <div className="footer-column">
           <h3 className="footer-title">CONTACT</h3>
           <ul className="footer-list">
-            <li><i className="fas fa-envelope"></i> Christmas@linoui.in</li>
+            <li><i className="fas fa-envelope"></i> christmas@linoui.in</li>
             <li className="footer-icons">
               <i className="fab fa-facebook"></i>
               <i className="fab fa-instagram"></i>
