@@ -5,6 +5,7 @@ import Shop from "./Pages/Shop";
 import Footer from "./Components/Footer/Footer";
 import LoginSignup from "./Pages/LoginSignup";
 import ShopCategory from "./Pages/shopCategory";
+import Product from "./Pages/Product";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="/croissants"element={<ShopCategory category="croissants" />}/>
           <Route path="/cookies"element={<ShopCategory category="cookies" />}/>
           <Route path="/macarons"element={<ShopCategory category="macarons" />}/>
+          <Route path='/product/:productId' element={<Product/>}/>
         </Routes>
         <Footer />
       </BrowserRouter>

@@ -11,9 +11,7 @@ const ShopCategory = ({ category }) => {
 
   return (
     <div className="shop-category">
-      <p>
-        Home <img className = 'arrow' src={arrow} alt="" /> {category}
-      </p>
+       
 
       <div className="shopcategory-indexSort">
         <p>
