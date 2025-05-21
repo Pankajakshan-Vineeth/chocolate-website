@@ -30,19 +30,19 @@ const NavBar = () => {
               <a href="#">CHOCOLATES</a>
             </li>
             <li>
-              <a href="#">PASTRIES</a>
+              <Link to= '/pastries'>PASTRIES</Link>
             </li>
             <li>
-              <a href="#">CELEBRATION CAKES</a>
+              <Link to= '/cakes'>CELEBRATION CAKES</Link>
             </li>
             <li>
-              <a href="#">CROISSANTS</a>
+              <Link to= '/croissants'>CROISSANTS</Link>
             </li>
             <li>
-              <a href="#">COOKIES</a>
+              <Link to= '/cookies'>COOKIES</Link>
             </li>
             <li>
-              <a href="#">MACARONS</a>
+              <Link to= '/macarons'>MACARONS</Link>
             </li>
           </ul>
           <div className="search-bar">

@@ -1,6 +1,7 @@
 // src/Context/AppContext.jsx
 import React, { createContext, useState, useEffect } from "react";
 import pan_India from "../assets/panIndia"; 
+import all_products from "../assets/all_products";
 
 export const AppContext = createContext(null);
 
@@ -50,6 +51,7 @@ export default function AppContextProvider({ children }) {
     prevPanIndia: prev,
     nextPanIndia: next,
     goToPanIndiaPage: setPage,
+    all_products
   };
 
   return (
