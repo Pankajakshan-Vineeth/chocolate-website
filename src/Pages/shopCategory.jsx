@@ -12,7 +12,7 @@ const ShopCategory = ({ category }) => {
   return (
     <div className="shop-category">
        
-
+      <p className="">Home <img  className = 'arrow' src={arrow} alt="" />{category}</p>
       <div className="shopcategory-indexSort">
         <p>
           <span>Showing 1-12</span> Out of {all_products.length} products
