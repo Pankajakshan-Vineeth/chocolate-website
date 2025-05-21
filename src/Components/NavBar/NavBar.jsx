@@ -12,11 +12,11 @@ const NavBar = () => {
       <header className="Navbar">
         <div className="navbar-top">
           <div className="logo">
-            <img src={logo} alt="" />
+            <Link to="/"><img src={logo} alt="" /></Link>
           </div>
           <div className="navbar-actions">
             <Link to="/login">LOGIN</Link>
-            <a href="#">REGISTER</a>
+            <Link to="/register">REGISTER</Link>
             <div className="cart">
               <img src={cart} alt="" />
               <span className="cart-count">0</span>

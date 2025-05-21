@@ -1,13 +1,19 @@
 import React from "react";
 import "./CSS/LoginSignup.css";
+import { useLocation } from "react-router-dom";
 
 const LoginSignup = () => {
+  const location = useLocation();
+  const isRegistering = location.pathname === "/register";
+
   return (
-    <div className="login-createaccount">
-      <div className="login-container">
+    <div
+      className={`login-createaccount ${isRegistering ? "register-mode" : ""}`}
+    >
+      <div className={`login-container ${!isRegistering ? "grey-bg" : ""}`}>
         <h3>LOGIN</h3>
 
-        <div className="login-fields">
+        <div className='login-fields'>
           <input type="email" placeholder="Email" />
           <input type="password" placeholder="Password" />
         </div>
@@ -15,8 +21,7 @@ const LoginSignup = () => {
         <button>Sign in</button>
         <span className="forgot">Forgot your password?</span>
       </div>
-
-      <div className="signup-container">
+      <div className={`signup-container ${isRegistering ? "grey-bg" : ""}`}>
         <h3>CREATE ACCOUNT</h3>
 
         <div className="signup-fields">

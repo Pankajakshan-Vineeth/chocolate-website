@@ -1,16 +1,29 @@
 .login-createaccount{
     width: 100%;
     height: 80vh;
-    background: white;
     padding-top: 60px;
+      transition: all 0.5s ease;
+      justify-content: center;
+
+}
+
+.login-container,
+.signup-container {
+  background-color: white;
+  padding: 40px;
+  width: 100%;
+  transition: background-color 0.3s ease;
 }
 
 .login-container{
-    background: rgb(216, 214, 214);
+  background-color: white;
     width: 450px;
     height: 350px;
     margin-left: 50px;
     padding: 30px 60px;
+}
+.login-createaccount.register-mode {
+  flex-direction: row-reverse;
 }
 
 .login-container h3{
@@ -37,6 +50,10 @@ color: #5c5c5c;
 font-size: 15px;
 }
 
+.grey-bg {
+  background-color: #dedcdc !important;
+}
+
 .login-container button{
     width: 30%;
     height: 40px;
@@ -58,7 +75,7 @@ font-size: 15px;
 }
 
 .signup-container{
-    background: wehite;
+    background: white;
     width: 550px;
     margin-left: 600px;
     margin-top: -350px;
