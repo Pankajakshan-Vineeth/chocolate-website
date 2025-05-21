@@ -12,7 +12,7 @@ const ShopCategory = ({ category }) => {
   return (
     <div className="shop-category">
       <p>
-        Home <img src={arrow} alt="" /> {category}
+        Home <img className = 'arrow' src={arrow} alt="" /> {category}
       </p>
 
       <div className="shopcategory-indexSort">
@@ -38,6 +38,7 @@ const ShopCategory = ({ category }) => {
             />
           ))}
       </div>
+      <p className="total-items">Items 1 to 9 of {all_products.length} total</p>
     </div>
   );
 };
