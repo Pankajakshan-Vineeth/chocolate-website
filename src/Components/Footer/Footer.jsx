@@ -1,5 +1,8 @@
 import React from "react";
 import "./Footer.css";
+import instagram from '../../assets/instagram_icon.png'
+import whatsapp from '../../assets/whatsapp_icon.png'
+import pintester from '../../assets/pintester_icon.png'
 
 const Footer = () => {
   return (
@@ -45,8 +48,9 @@ const Footer = () => {
           <ul className="footer-list">
             <li><i className="fas fa-envelope"></i> christmas@linoui.in</li>
             <li className="footer-icons">
-              <i className="fab fa-facebook"></i>
-              <i className="fab fa-instagram"></i>
+              <i className="fab fa-whatsapp"><img src={whatsapp} alt="" /></i>
+              <i className="fab fa-instagram"><img src={instagram} alt="" /></i>
+              <i className="fab fa-pintester"><img src={pintester} alt="" /></i>
             </li>
           </ul>
         </div>
