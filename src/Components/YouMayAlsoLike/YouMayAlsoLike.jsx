@@ -1,4 +1,3 @@
-import React from 'react'
 import './YouMayAlsoLike.css'
 import you_like from '../../assets/you_like'
 import Item from '../Item/Item'

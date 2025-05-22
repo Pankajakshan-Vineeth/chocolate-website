@@ -11,15 +11,18 @@
 .footer-main {
   display: flex;
   flex-wrap: wrap;
-  gap: 150px;
+  gap: 130px;
   margin-bottom: 30px;
 margin-left: 30px;
+margin-right: 20px;
 }
 
 .footer-column {
   display: flex;
   flex-direction: column;
   min-width: 180px;
+  margin-right: 10px;
+
 }
 
 .footer-title {

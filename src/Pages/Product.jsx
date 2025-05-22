@@ -1,4 +1,3 @@
-import React from "react";
 import ProductDisplay from "../Components/ProductDisplay/ProductDisplay";
 import YouMayAlsoLike from "../Components/YouMayAlsoLike/YouMayAlsoLike";
 import { AppContext } from "../Context/AppContext";

@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import "./ProductDisplay.css";
 import arrow from '../../assets/breadcrum_arrow.png'
 
