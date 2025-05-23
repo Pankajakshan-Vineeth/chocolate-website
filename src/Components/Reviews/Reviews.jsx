@@ -57,7 +57,7 @@ const Reviews = () => {
                 pleasure to try out opera cake and chocolate dragees...Opera
                 cake was incredibly soft & moist and Belgian chocolate and
                 french buttercream was perfect .And Chocolate dragees was just
-                perfect for our small party...
+                perfect for our small party..
               </p>
             </div>
           </li>
